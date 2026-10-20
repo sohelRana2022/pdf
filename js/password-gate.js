@@ -15,7 +15,7 @@ export function markUnlocked() { try { sessionStorage.setItem(FLAG, "1"); } catc
 export function lockAdmin() { try { sessionStorage.removeItem(FLAG); } catch { /* ignore */ } }
 export function passwordMatches(input) { return typeof input === "string" && input === ADMIN_PASSWORD; }
 
-if (ADMIN_PASSWORD === "REPLACE_WITH_MY_FIXED_PASSWORD") {
+if (ADMIN_PASSWORD === "admin123") {
   console.warn("[Epic Card Studio] ADMIN_PASSWORD is still the placeholder. Edit js/password-gate.js before deploying.");
 }
 
