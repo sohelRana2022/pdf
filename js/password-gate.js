@@ -3,7 +3,7 @@
 // SECURITY LIMITATION: this value ships to every visitor's browser. Anyone who opens the page source
 // can read it. It only hides the admin UI from casual visitors. It does NOT protect Firestore.
 // Replace the placeholder with your own password before deploying.
-export const ADMIN_PASSWORD = "REPLACE_WITH_MY_FIXED_PASSWORD";
+export const ADMIN_PASSWORD = "admin123";
 
 // Only a flag is remembered for the current tab (never the password itself).
 const FLAG = "ecs_admin_ui_unlocked";
